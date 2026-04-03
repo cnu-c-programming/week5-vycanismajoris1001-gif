@@ -2,8 +2,9 @@
 
 long my_strtol(char* str, char** endptr) {
   long res = 0;
-  while (*p >= '0' && *p <= '9') {
+  char* p = str; 
 
+    while (*p >= '0' && *p <= '9') {
         res = res * 10 + (*p - '0');
         p++; 
     }
