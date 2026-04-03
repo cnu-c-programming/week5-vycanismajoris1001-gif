@@ -9,7 +9,7 @@ int main() {
 
     if (index < 0 || index >= size) {
 
-        printf("error!\n");
+        printf("Error!\n");
  
         int temp = arr[index]; 
     } 
