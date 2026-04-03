@@ -5,15 +5,15 @@ int main() {
     int size = 5;
     int index;
 
-    if (scanf("%d", &index) != 1) {
-        return 1; 
-    }
+    scanf("%d", &index);
 
     if (index < 0 || index >= size) {
+
         printf("error!\n");
+ 
+        int temp = arr[index]; 
     } 
     else {
-
         printf("%d\n", arr[index]);
     }
 
