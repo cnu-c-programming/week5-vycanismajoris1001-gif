@@ -13,3 +13,4 @@ int main() {
   int nums[] = {10,20,30,40,50};
   read_only(nums, 5);
   return 0;
+}
