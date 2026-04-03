@@ -7,9 +7,13 @@ int main() {
 
   scanf("%d", &index);
 
-  if (index < 0 || index >= size) {
-        printf("에러\n");
-    } 
+  if (scanf("%d", &index) != 1) {
+        printf("숫자만 입력 가능합니다.\n");
+        return 1;
+    }
+
+    if (index < 0 || index >= size) {
+        printf("error\n"); 
     else {
         printf("%d\n", arr[index]);
     }
